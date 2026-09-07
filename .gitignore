@@ -21,3 +21,157 @@ Thumbs.db
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Package Managers
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+bun.lock
+bun.lockb
+
+# Miscellaneous
+/static/
+
+# ==========================
+# Python
+# ==========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ==========================
+# Go
+# ==========================
+
+*.exe
+*.test
+*.out
+
+# ==========================
+# Rust
+# ==========================
+
+target/
+
+# Garder Cargo.lock uniquement si on fait une application.
+# Cargo.lock
+
+# ==========================
+# Ruby
+# ==========================
+
+.bundle/
+vendor/bundle/
+
+# ==========================
+# R
+# ==========================
+
+.Rhistory
+.RData
+.Rproj.user/
+
+# ==========================
+# PostgreSQL
+# ==========================
+
+*.backup
+*.dump
+
+# ==========================
+# QGIS
+# ==========================
+
+*.qgs~
+*.qgz~
+
+# ==========================
+# Logs
+# ==========================
+
+*.log
+
+# ==========================
+# Temporary files
+# ==========================
+
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# ==========================
+# IDE
+# ==========================
+
+.vscode/
+.idea/
+
+# ==========================
+# Sublime Text
+# ==========================
+
+*.sublime-workspace
+# *.sublime-project
+
+# ==========================
+# Windows
+# ==========================
+
+Thumbs.db
+Desktop.ini
+
+# ==========================
+# macOS
+# ==========================
+
+.DS_Store
+
+# ==========================
+# Installer
+# ==========================
+
+installer/releases/
+
+# ==========================
+# Temp
+# ==========================
+
+temp/
+
+# ==========================
+# Secrets
+# ==========================
+
+.env
+.env.*
+*.key
+*.pem
+*.crt
+config.local.*
+
+# ==========================
+# Python tests
+# ==========================
+
+.pytest_cache/
+.mypy_cache/
+
+# ==========================
+# Coverage
+# ==========================
+
+.coverage
+htmlcov/
+
+# ==========================
+# Node (au cas où un jour...)
+# ==========================
+
+node_modules/
